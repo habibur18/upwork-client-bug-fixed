@@ -1,0 +1,75 @@
+.instructions {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 800;
+  font-family: inherit;
+}
+.blankLine,
+.settingUpA,
+.theProvidedExcel {
+  margin: 0;
+}
+.settingUpAContainer {
+  height: 88px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 110%;
+  display: inline-block;
+}
+.learnMoreButton,
+.learnMoreButtonWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.learnMoreButton {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px 0;
+}
+.learnMoreButtonWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-416xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1200px) {
+  .learnMoreButtonWrapper {
+    padding-right: var(--padding-198xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .instructions {
+    font-size: var(--font-size-19xl);
+    line-height: 42px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .learnMoreButtonWrapper {
+    padding-right: var(--padding-89xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .instructions {
+    font-size: var(--font-size-10xl);
+    line-height: 32px;
+  }
+  .settingUpAContainer {
+    font-size: var(--font-size-base);
+    line-height: 18px;
+  }
+  .learnMoreButtonWrapper {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

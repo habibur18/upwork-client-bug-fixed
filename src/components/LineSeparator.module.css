@@ -1,0 +1,402 @@
+.headerFrame,
+.turigmaai {
+  align-self: stretch;
+  position: relative;
+}
+.headerFrame {
+  height: 1px;
+  border-top: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+}
+.turigmaai {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+}
+.aLeadingSilicon {
+  width: 366px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 157.4%;
+  font-family: var(--font-nunito);
+  color: var(--color-gray-200);
+  display: inline-block;
+}
+.turigmaLogo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 26px 0;
+}
+.mailIcon {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.loginIDInput {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+}
+.infoturigmaai {
+  position: relative;
+  line-height: 157.4%;
+  white-space: nowrap;
+}
+.homePageFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 17px;
+}
+.phoneCallIcon {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.phoneCallWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+}
+.div {
+  flex: 1;
+  position: relative;
+  line-height: 157.4%;
+}
+.homePageFrame1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 17px;
+}
+.companyText,
+.pagesFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pagesFrame {
+  width: 209px;
+  gap: 18px 0;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-nunito);
+}
+.companyText {
+  width: 366px;
+  gap: 36px 0;
+  max-width: 100%;
+  font-family: var(--font-lato);
+}
+.pages1 {
+  margin: 0;
+  width: 118px;
+  position: relative;
+  font-size: inherit;
+  line-height: 128.18%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.loginButton {
+  width: 180px;
+  height: 1px;
+  position: absolute;
+  margin: 0 !important;
+  top: 61px;
+  right: -30.5px;
+  border-top: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+}
+.aboutUs,
+.home {
+  margin: 0;
+}
+.integrations1 {
+  font-family: var(--font-nunito);
+  color: var(--ff-saas);
+}
+.contactUs,
+.features,
+.integrations,
+.pricing {
+  margin: 0;
+}
+.homeAboutUsContainer {
+  width: 160px;
+  height: 413px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 267.5%;
+  text-transform: capitalize;
+  display: inline-block;
+  color: var(--color-gray-200);
+}
+.pages {
+  width: 151px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: 46px 0;
+  cursor: pointer;
+}
+.utilityPages {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 128.18%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+}
+.myProfileFrame {
+  width: 180px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+}
+.account,
+.cancelSubscription,
+.myProfile,
+.resetPassword {
+  margin: 0;
+}
+.myProfileAccountContainer {
+  width: 224px;
+  height: 450px;
+  position: absolute;
+  margin: 0 !important;
+  right: -12.5px;
+  bottom: -186px;
+  font-size: var(--font-size-3xl);
+  line-height: 267.5%;
+  text-transform: capitalize;
+  color: var(--color-gray-200);
+  display: inline-block;
+}
+.utilitiPage {
+  width: 211px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-269xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 24px 0;
+  cursor: pointer;
+}
+.content {
+  width: 416px;
+  display: none;
+  max-width: 100%;
+}
+.appDownload,
+.subheaderFrame {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.appDownload {
+  height: 205px;
+  width: 407px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-46xl) var(--padding-18xl);
+  min-width: 265px;
+}
+.subheaderFrame {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) 0 var(--padding-lgi);
+  gap: 0 63px;
+}
+.copyrightTurigmaai,
+.lineIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.lineIcon {
+  width: 1400px;
+  max-height: 100%;
+  max-width: 103%;
+}
+.copyrightTurigmaai {
+  width: 681px;
+  line-height: 157.4%;
+  display: inline-block;
+  max-width: 100%;
+}
+.div1,
+.div2,
+.div3,
+.div4 {
+  position: relative;
+  letter-spacing: 0.06em;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.div4 {
+  font-size: var(--font-size-lgi);
+}
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0 24px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-300);
+  font-family: var(--font-roboto);
+}
+.copyrights,
+.copyrights1,
+.lineSeparator,
+.multiFrame {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.copyrights1 {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-34xl) 0 var(--padding-12xs);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  gap: var(--gap-xl);
+}
+.copyrights,
+.lineSeparator,
+.multiFrame {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.copyrights {
+  gap: 35px 0;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-200);
+}
+.lineSeparator,
+.multiFrame {
+  box-sizing: border-box;
+}
+.multiFrame {
+  padding: 0 var(--padding-lgi);
+  gap: 39px 0;
+  flex-shrink: 0;
+}
+.lineSeparator {
+  padding: 0 var(--padding-xl);
+  gap: 90px 0;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1200px) {
+  .copyrights1 {
+    padding-right: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .pages1,
+  .turigmaai,
+  .utilityPages {
+    font-size: var(--font-size-5xl);
+  }
+  .pages1,
+  .utilityPages {
+    line-height: 31px;
+  }
+  .copyrights1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .subheaderFrame {
+    gap: 0 63px;
+  }
+  .copyrights {
+    gap: 35px 0;
+  }
+  .multiFrame {
+    gap: 39px 0;
+  }
+  .lineSeparator {
+    gap: 90px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .turigmaai {
+    font-size: var(--font-size-lg);
+  }
+  .aLeadingSilicon,
+  .div,
+  .infoturigmaai {
+    font-size: var(--font-size-lg);
+    line-height: 28px;
+  }
+  .companyText {
+    gap: 36px 0;
+  }
+  .homeAboutUsContainer,
+  .pages1 {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+  .homeAboutUsContainer {
+    line-height: 47px;
+  }
+  .myProfileAccountContainer,
+  .utilityPages {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+  .myProfileAccountContainer {
+    line-height: 47px;
+  }
+  .utilitiPage {
+    padding-bottom: var(--padding-168xl);
+    box-sizing: border-box;
+  }
+  .subheaderFrame {
+    gap: 0 63px;
+  }
+  .copyrightTurigmaai {
+    font-size: var(--font-size-lg);
+    line-height: 28px;
+  }
+  .lineSeparator {
+    gap: 90px 0;
+  }
+}

@@ -1,0 +1,113 @@
+.textFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-4xs);
+}
+.home,
+.presalesAi {
+  position: relative;
+  font-weight: 800;
+  z-index: 1;
+}
+.presalesAi {
+  width: 98px;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.features {
+  cursor: pointer;
+}
+.benefits,
+.blog,
+.features {
+  position: relative;
+  font-weight: 800;
+  z-index: 1;
+}
+.blog {
+  width: 46px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.pricing1 {
+  margin: 0;
+}
+.pricing {
+  position: relative;
+  font-weight: 800;
+  z-index: 1;
+}
+.blogImageImageTagMarketing,
+.mostPopularArticles {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.blogImageImageTagMarketing {
+  width: 561px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-xl);
+}
+.mostPopularArticles {
+  height: 48px;
+  width: 628px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+}
+.signIn {
+  position: relative;
+  white-space: nowrap;
+}
+.loginButton {
+  border-radius: var(--br-20xl);
+  background-color: var(--dark-theme-gray-0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-6xl) var(--padding-31xl) var(--padding-6xl)
+    var(--padding-35xl);
+  white-space: nowrap;
+  cursor: pointer;
+  z-index: 1;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-300);
+}
+.backgroundFrame,
+.logoImageFrame {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.logoImageFrame {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.backgroundFrame {
+  width: 1811px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-2xs) var(--padding-6xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--dark-theme-gray-0);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1350px) {
+  .blogImageImageTagMarketing {
+    display: none;
+  }
+  .mostPopularArticles {
+    width: 67px;
+  }
+}

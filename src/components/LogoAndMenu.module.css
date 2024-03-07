@@ -1,0 +1,70 @@
+.logoFrame {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  mix-blend-mode: normal;
+  cursor: pointer;
+}
+.campaignDesign,
+.campaignSetup,
+.logoFrame {
+  white-space: nowrap;
+}
+.campaignDesign,
+.campaignSetup,
+.research {
+  position: relative;
+  font-weight: 800;
+  cursor: pointer;
+}
+.callAnalysis,
+.callerDashboard,
+.managerDashboard {
+  position: relative;
+  font-weight: 800;
+  white-space: nowrap;
+}
+.callAnalysis,
+.managerDashboard {
+  cursor: pointer;
+}
+.logoAndMenu,
+.menuFrame {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.menuFrame {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 32px;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-500);
+}
+.logoAndMenu {
+  width: 1309px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1050px) {
+  .menuFrame {
+    display: none;
+  }
+  .logoAndMenu {
+    width: 433px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .menuFrame {
+    gap: 0 32px;
+  }
+}

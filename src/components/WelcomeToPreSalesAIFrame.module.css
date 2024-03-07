@@ -1,0 +1,205 @@
+.blankLine,
+.turigmaUsesA,
+.turigmasAutomatedCallingSc {
+  margin: 0;
+}
+.customerRoleValidation,
+.deflectCustomerObjections,
+.productDifferentiation,
+.productIntroduction,
+.succintCompanyIntroduction,
+.trustBuildingStatements,
+.warmIntroduction {
+  margin-bottom: 0;
+}
+.warmIntroductionTrustBuildi {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-24xl);
+}
+.turigmasAutomatedCallingContainer1 {
+  width: 100%;
+}
+.turigmasAutomatedCallingContainer {
+  margin: 0;
+  width: 1133px;
+  height: 590px;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: inherit;
+}
+.callingScriptStepsText,
+.turigmasAutomatedCallingSte {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.turigmasAutomatedCallingSte {
+  background-color: var(--dark-theme-gray-0);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: var(--padding-41xl) var(--padding-21xl);
+}
+.callingScriptStepsText {
+  align-items: center;
+  flex-shrink: 0;
+}
+.blankLine1,
+.turigmaUsesA1,
+.turigmasAutomatedCallingSc1 {
+  margin: 0;
+}
+.customerRoleValidation1,
+.deflectCustomerObjections1,
+.productDifferentiation1,
+.productIntroduction1,
+.succinctCompanyIntroduction,
+.trustBuildingStatements1,
+.warmIntroduction1 {
+  margin-bottom: 0;
+}
+.warmIntroductionTrustBuildi1 {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-24xl);
+}
+.turigmasAutomatedCallingContainer3 {
+  width: 100%;
+}
+.turigmasAutomatedCallingContainer2 {
+  margin: 0;
+  width: 1133px;
+  height: 590px;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: inherit;
+}
+.automatedCallingScriptText {
+  background-color: var(--dark-theme-gray-0);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-41xl) var(--padding-21xl);
+}
+.automatedCallingScriptTextWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.campaignDesignSubtitleFrame,
+.frameCallAnalysis,
+.welcomeToPreSalesAIFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frameCallAnalysis {
+  background-color: var(--color-whitesmoke-400);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-25xl) var(--padding-21xl);
+  max-width: 107%;
+}
+.campaignDesignSubtitleFrame,
+.welcomeToPreSalesAIFrame {
+  max-width: 100%;
+}
+.campaignDesignSubtitleFrame {
+  height: 807px;
+  width: 1301px;
+  background-color: var(--color-whitesmoke-400);
+  overflow-y: auto;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-25xl) var(--padding-21xl);
+  gap: 10px 0;
+}
+.welcomeToPreSalesAIFrame {
+  flex-direction: row;
+  padding: 0 var(--padding-31xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1200px) {
+  .campaignDesignSubtitleFrame {
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  .welcomeToPreSalesAIFrame {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .turigmasAutomatedCallingContainer,
+  .turigmasAutomatedCallingContainer2 {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .frameCallAnalysis {
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  .campaignDesignSubtitleFrame {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .turigmasAutomatedCallingSte {
+    padding-top: var(--padding-20xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .callingScriptStepsText {
+    gap: 74px 0;
+  }
+  .automatedCallingScriptText {
+    padding-top: var(--padding-20xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .automatedCallingScriptTextWrapper {
+    gap: 74px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .turigmasAutomatedCallingContainer {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .callingScriptStepsText {
+    gap: 74px 0;
+  }
+  .turigmasAutomatedCallingContainer2 {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .automatedCallingScriptTextWrapper {
+    gap: 74px 0;
+  }
+  .frameCallAnalysis {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

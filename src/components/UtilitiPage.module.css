@@ -1,0 +1,73 @@
+.utilityPages {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 128.18%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+}
+.cancelButton {
+  width: 180px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+}
+.account,
+.cancelSubscription,
+.myProfile,
+.resetPassword {
+  margin: 0;
+}
+.myProfileAccountContainer {
+  margin: 0 !important;
+  width: 224px;
+  height: 450px;
+  position: absolute;
+  right: -13px;
+  bottom: -186px;
+  font-size: var(--font-size-3xl);
+  line-height: 267.5%;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-gray-200);
+  display: inline-block;
+}
+.utilitiPage {
+  width: 211px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-269xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 24px 0;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1050px) {
+  .utilityPages {
+    font-size: var(--font-size-5xl);
+    line-height: 31px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .myProfileAccountContainer,
+  .utilityPages {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+  .myProfileAccountContainer {
+    line-height: 47px;
+  }
+  .utilitiPage {
+    padding-bottom: var(--padding-168xl);
+    box-sizing: border-box;
+  }
+}

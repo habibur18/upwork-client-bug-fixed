@@ -1,0 +1,326 @@
+.turigmaai {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.subframe {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-lato);
+}
+.aLeadingSilicon {
+  width: 366px;
+  position: relative;
+  line-height: 157.4%;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.subframe1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-lg);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.mailIcon {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mailWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+}
+.infoturigmaai {
+  position: relative;
+  line-height: 157.4%;
+  white-space: nowrap;
+}
+.subframe2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 17px;
+}
+.phoneCallIcon {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.phoneCallWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+}
+.div {
+  flex: 1;
+  position: relative;
+  line-height: 157.4%;
+}
+.mainFrame,
+.subframe3 {
+  width: 209px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 17px;
+}
+.mainFrame {
+  width: 379px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-smi) 0 0;
+  box-sizing: border-box;
+  gap: 18px 0;
+  max-width: 100%;
+}
+.pages,
+.pages1 {
+  position: relative;
+}
+.pages {
+  width: 118px;
+  line-height: 128.18%;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.pages1 {
+  align-self: stretch;
+  height: 1px;
+  border-top: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+}
+.pagesParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 23px 0;
+  min-width: 117px;
+}
+.utilityPages1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 128.18%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+}
+.aboutUs {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+}
+.title,
+.utilityPages {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.utilityPages {
+  flex: 1;
+  flex-direction: column;
+  gap: 24px 0;
+  min-width: 120px;
+}
+.title {
+  width: 397px;
+  flex-direction: row;
+  gap: 0 33px;
+  max-width: 100%;
+}
+.aboutUs1,
+.home {
+  margin: 0;
+}
+.integrations2 {
+  font-family: var(--font-nunito);
+  color: var(--ff-saas);
+}
+.contactUs,
+.features,
+.integrations1,
+.pricing {
+  margin: 0;
+}
+.homeAboutUsContainer {
+  height: 413px;
+  width: 160px;
+  position: relative;
+  line-height: 267.5%;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 160px;
+}
+.account,
+.cancelSubscription,
+.myProfile,
+.resetPassword {
+  margin: 0;
+}
+.myProfileAccountContainer {
+  align-self: stretch;
+  height: 450px;
+  position: relative;
+  line-height: 267.5%;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.features1 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  min-width: 146px;
+}
+.company,
+.features1,
+.integrations {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.integrations {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 53px;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-200);
+}
+.company {
+  width: 437px;
+  flex-direction: column;
+  gap: 22px 0;
+  max-width: 100%;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-300);
+}
+.content {
+  width: 416px;
+  display: none;
+  max-width: 100%;
+}
+.appDownload,
+.turigmaaiFrame,
+.utilityPagesFrame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.appDownload {
+  height: 205px;
+  width: 393px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-46xl) var(--padding-18xl);
+  box-sizing: border-box;
+  min-width: 255px;
+}
+.turigmaaiFrame,
+.utilityPagesFrame {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.turigmaaiFrame {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 0 50px;
+}
+.utilityPagesFrame {
+  align-self: stretch;
+  padding: 0 var(--padding-27xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1200px) {
+  .utilityPagesFrame {
+    padding-left: var(--padding-4xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .pages,
+  .turigmaai,
+  .utilityPages1 {
+    font-size: var(--font-size-5xl);
+  }
+  .pages,
+  .utilityPages1 {
+    line-height: 31px;
+  }
+  .turigmaaiFrame {
+    gap: 0 50px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .turigmaai {
+    font-size: var(--font-size-lg);
+  }
+  .aLeadingSilicon,
+  .div,
+  .infoturigmaai,
+  .pages,
+  .utilityPages1 {
+    font-size: var(--font-size-lg);
+    line-height: 28px;
+  }
+  .pages,
+  .utilityPages1 {
+    line-height: 23px;
+  }
+  .title {
+    flex-wrap: wrap;
+    gap: 0 33px;
+  }
+  .homeAboutUsContainer {
+    flex: 1;
+  }
+  .homeAboutUsContainer,
+  .myProfileAccountContainer {
+    font-size: var(--font-size-lg);
+    line-height: 47px;
+  }
+  .integrations {
+    flex-wrap: wrap;
+    gap: 0 53px;
+  }
+}

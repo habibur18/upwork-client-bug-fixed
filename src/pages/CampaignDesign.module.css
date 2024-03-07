@@ -1,0 +1,252 @@
+.logoFrame {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  mix-blend-mode: normal;
+  cursor: pointer;
+}
+.campaignDesign1,
+.campaignSetup,
+.logoFrame {
+  white-space: nowrap;
+}
+.campaignDesign1,
+.campaignSetup,
+.research {
+  position: relative;
+  font-weight: 800;
+  cursor: pointer;
+}
+.callAnalysis,
+.callerDashboard,
+.managerDashboard {
+  position: relative;
+  font-weight: 800;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.menuFrame {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 32px;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-500);
+}
+.campaignDesign,
+.logoAndMenu,
+.menuFrame {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.logoAndMenu {
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.campaignDesign {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-37xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+.campaignDesign2,
+.pageSubtitle {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-family: inherit;
+}
+.campaignDesign2 {
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 800;
+}
+.pageSubtitle {
+  font-size: var(--font-size-6xl);
+  line-height: 157.4%;
+  font-weight: 400;
+  color: var(--color-gray-200);
+}
+.campaignDesignText,
+.frameText {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.campaignDesignText {
+  width: 1291px;
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: 16px 0;
+}
+.frameText {
+  width: 1336px;
+  flex-direction: row;
+  padding: 0 0 var(--padding-3xs) 0;
+  text-align: center;
+  font-size: var(--font-size-56xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+.blankLine,
+.turigmaTheWorlds1stEnter,
+.welcomeToPresalesAiAutomat {
+  margin: 0;
+}
+.turigmaaiGeneratesAutomated1 {
+  margin-bottom: 0;
+}
+.turigmaaiGeneratesAutomated {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-24xl);
+}
+.welcomeToPresalesContainer1 {
+  width: 100%;
+}
+.welcomeToPresalesContainer {
+  margin: 0;
+  width: 1133px;
+  height: 488px;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: inherit;
+}
+.frameWelcometextframe,
+.welcometextText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameWelcometextframe {
+  height: 580px;
+  background-color: var(--dark-theme-gray-0);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-start;
+  padding: var(--padding-41xl) var(--padding-21xl);
+  box-sizing: border-box;
+}
+.welcometextText {
+  align-items: center;
+}
+.instructionsFrame {
+  flex: 1;
+  background-color: var(--color-whitesmoke-400);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-25xl) var(--padding-21xl);
+  max-width: 100%;
+}
+.campaigndesign,
+.instructionsFrame,
+.instructionsText {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.instructionsText {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-31xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-nunito);
+}
+.campaigndesign {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark-theme-gray-0);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-31xl) 0 84px var(--padding-5xl);
+  gap: 108px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .campaignDesign,
+  .instructionsText {
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+  .instructionsText {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .menuFrame {
+    display: none;
+  }
+  .campaignDesign2 {
+    font-size: var(--font-size-41xl);
+    line-height: 66px;
+  }
+  .welcomeToPresalesContainer {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameWelcometextframe {
+    padding-top: var(--padding-20xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .welcometextText {
+    gap: 74px 0;
+  }
+  .instructionsFrame {
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  .campaigndesign {
+    gap: 108px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .menuFrame {
+    gap: 0 32px;
+  }
+  .campaignDesign2 {
+    font-size: var(--font-size-26xl);
+    line-height: 49px;
+  }
+  .pageSubtitle {
+    font-size: var(--font-size-xl);
+    line-height: 31px;
+  }
+  .welcomeToPresalesContainer {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .welcometextText {
+    gap: 74px 0;
+  }
+  .campaigndesign {
+    gap: 108px 0;
+  }
+}

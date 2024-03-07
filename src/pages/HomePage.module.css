@@ -1,0 +1,171 @@
+.home {
+  width: 1825px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 131px 0;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.frameFrame,
+.imageFrame,
+.itIsALongEstablishedFact,
+.textFrame {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.itIsALongEstablishedFact {
+  width: 1909px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl) 152px;
+}
+.frameFrame,
+.imageFrame,
+.textFrame {
+  justify-content: flex-start;
+}
+.imageFrame {
+  width: 614px;
+  flex-direction: column;
+  padding: 144px var(--padding-5xs) 0 0;
+}
+.frameFrame,
+.textFrame {
+  flex-direction: row;
+}
+.frameFrame {
+  margin-left: 192px;
+  width: 1955px;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-xl) var(--padding-89xl);
+  gap: 0 52px;
+}
+.textFrame {
+  width: 1405px;
+  padding: 0 0 126px var(--padding-8xs);
+}
+.heroImageBoxBackgroundIcon {
+  width: 2128.4px;
+  height: 813px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -657px;
+}
+.line {
+  height: 1px;
+  width: 1400px;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+  max-width: calc(100% - 0px);
+}
+.lineSeparator,
+.turigmaaiLogoFrameParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.lineSeparator {
+  align-self: stretch;
+  height: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+}
+.turigmaaiLogoFrameParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 58px 0;
+}
+.homePage,
+.homePageInner {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.homePageInner {
+  width: 1939px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) 0 var(--padding-7xl);
+  max-width: 100%;
+}
+.homePage {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark-theme-gray-0);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-sm) 0 var(--padding-33xl);
+  gap: 164px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1800px) {
+  .textFrame {
+    max-width: calc(100% - 5px);
+  }
+}
+@media screen and (max-width: 1350px) {
+  .home {
+    gap: 131px 0;
+  }
+  .itIsALongEstablishedFact {
+    padding-bottom: 99px;
+    box-sizing: border-box;
+  }
+  .homePage {
+    gap: 164px 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  .home {
+    gap: 131px 0;
+  }
+  .itIsALongEstablishedFact {
+    padding-bottom: 64px;
+    box-sizing: border-box;
+  }
+  .imageFrame {
+    padding-top: var(--padding-75xl);
+    box-sizing: border-box;
+  }
+  .frameFrame {
+    gap: 0 52px;
+    padding-bottom: 70px;
+    box-sizing: border-box;
+  }
+  .textFrame {
+    padding-bottom: 82px;
+    box-sizing: border-box;
+  }
+  .turigmaaiLogoFrameParent {
+    gap: 58px 0;
+  }
+  .homePage {
+    gap: 164px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .home {
+    gap: 131px 0;
+  }
+  .frameFrame,
+  .itIsALongEstablishedFact {
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+  .frameFrame {
+    padding-bottom: var(--padding-26xl);
+  }
+  .homePage {
+    gap: 164px 0;
+  }
+}

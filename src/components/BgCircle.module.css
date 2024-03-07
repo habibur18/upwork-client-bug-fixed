@@ -1,0 +1,323 @@
+.backgroundIcon {
+  width: 1983.3px;
+  height: 1004px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.backgroundIcon1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.testimonial2 {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-nunito);
+  color: var(--dark-theme-gray-0);
+  text-align: left;
+}
+.testimonial1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xl);
+  background-color: var(--color-blueviolet-200);
+  width: 165px;
+  border-radius: var(--br-20xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.testimonial1:hover {
+  background-color: var(--color-mediumslateblue-300);
+}
+.trustedBySales {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 800;
+  font-family: inherit;
+  z-index: 2;
+}
+.turigmaaiInfoFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px 0;
+  max-width: 100%;
+}
+.lineVertical {
+  width: 796px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.h1 {
+  margin: 0;
+  width: 48px;
+  position: relative;
+  font-size: inherit;
+  line-height: 61px;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.imageTagMarker {
+  width: 244px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  text-align: center;
+}
+.bg,
+.h2 {
+  position: relative;
+}
+.bg {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 50%;
+  background-color: var(--color-blueviolet-200);
+  z-index: 2;
+}
+.h2 {
+  height: 33px;
+  width: 36px;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  transform: rotate(-180deg);
+  z-index: 3;
+  margin: 0 0 0-69px;
+}
+.frameTurigmaaiContact {
+  height: 76px;
+  width: 76px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-14xl) 0 0;
+  box-sizing: border-box;
+}
+.outboundPresalesCalling {
+  margin: 0;
+  width: 1435.8px;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  line-height: 157.4%;
+  display: inline-block;
+  font-style: italic;
+  font-weight: 600;
+  font-family: var(--font-nunito);
+  text-align: center;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.lineHorizontal {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 0 var(--padding-23xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-calistoga);
+}
+.imageIcon {
+  width: 108px;
+  height: 108px;
+  position: relative;
+  object-fit: contain;
+  z-index: 2;
+}
+.jamesToriff,
+.presalesHead {
+  position: relative;
+  line-height: 157.4%;
+  z-index: 2;
+}
+.jamesToriff {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.presalesHead {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+}
+.textFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.starIcon {
+  width: 139px;
+  height: 28.4px;
+  position: relative;
+  object-fit: contain;
+  z-index: 2;
+}
+.appDownloadButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px 0;
+}
+.novemberTopTip,
+.profileAccountResetCancel {
+  width: 392px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  font-size: var(--font-size-16xl);
+}
+.novemberTopTip {
+  width: 1634px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-81xl);
+}
+.bgCircle,
+.testimonial {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.testimonial {
+  margin-left: 15px;
+  flex: 1;
+  background-color: var(--ff-saas);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-168xl) var(--padding-187xl) var(--padding-168xl)
+    var(--padding-xl);
+  position: relative;
+  gap: var(--gap-44xl);
+  max-width: 100%;
+}
+.bgCircle {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-103xl);
+  max-width: 101%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--dark-theme-gray-0);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1800px) {
+  .lineHorizontal {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .testimonial {
+    padding-top: var(--padding-103xl);
+    padding-right: var(--padding-84xl);
+    padding-bottom: var(--padding-103xl);
+    box-sizing: border-box;
+  }
+  .bgCircle {
+    padding-bottom: var(--padding-60xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .trustedBySales {
+    font-size: var(--font-size-21xl);
+    line-height: 44px;
+  }
+  .h1 {
+    font-size: var(--font-size-31xl);
+    line-height: 66px;
+  }
+  .h2 {
+    font-size: var(--font-size-5xl);
+    line-height: 26px;
+  }
+  .jamesToriff {
+    font-size: var(--font-size-9xl);
+    line-height: 44px;
+  }
+  .testimonial {
+    gap: var(--gap-44xl);
+    padding-top: var(--padding-60xl);
+    padding-right: var(--padding-32xl);
+    padding-bottom: var(--padding-60xl);
+    box-sizing: border-box;
+  }
+  .bgCircle {
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h1,
+  .trustedBySales {
+    font-size: var(--font-size-11xl);
+    line-height: 33px;
+  }
+  .h1 {
+    line-height: 44px;
+  }
+  .h2 {
+    font-size: var(--font-size-lg);
+    line-height: 20px;
+  }
+  .outboundPresalesCalling {
+    font-size: var(--font-size-xl);
+    line-height: 31px;
+  }
+  .jamesToriff {
+    font-size: var(--font-size-2xl);
+    line-height: 33px;
+  }
+  .presalesHead {
+    font-size: var(--font-size-base);
+    line-height: 25px;
+  }
+  .testimonial {
+    gap: var(--gap-44xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

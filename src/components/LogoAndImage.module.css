@@ -1,0 +1,41 @@
+.turigmaai {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  mix-blend-mode: normal;
+  white-space: nowrap;
+}
+.turigmaLogoTransparent1 {
+  height: 81px;
+  width: 81px;
+  position: relative;
+  object-fit: cover;
+}
+.logoAndImage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 33px;
+  cursor: pointer;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1050px) {
+  .turigmaai {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .turigmaai {
+    font-size: var(--font-size-lg);
+  }
+  .logoAndImage {
+    gap: 0 33px;
+  }
+}

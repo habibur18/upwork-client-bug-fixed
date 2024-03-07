@@ -1,0 +1,91 @@
+.bg {
+  height: 68.5px;
+  width: 142.2px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-300);
+  display: none;
+}
+.frameChild,
+.frameInner,
+.frameItem {
+  position: absolute;
+  top: 9.9px;
+  left: 0.3px;
+  border-radius: var(--br-xl);
+  background-color: var(--dark-theme-gray-0);
+  width: 59.8px;
+  height: 8.7px;
+  z-index: 1;
+}
+.frameInner,
+.frameItem {
+  top: -0.5px;
+  width: 40.7px;
+  height: 6.9px;
+}
+.frameInner {
+  top: 27.7px;
+  left: 0.5px;
+  background-color: var(--color-lightgreen);
+  width: 31.1px;
+  height: 7.7px;
+}
+.rectangleParent {
+  align-self: stretch;
+  height: 36px;
+  position: relative;
+}
+.turigmaaiContactInfoInner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xs);
+}
+.bg1,
+.div {
+  position: absolute;
+}
+.bg1 {
+  top: -0.25px;
+  left: 0.3px;
+  border-radius: 50%;
+  background-color: var(--color-mediumslateblue-100);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.div {
+  top: 16.85px;
+  left: 10.1px;
+  font-weight: 800;
+  display: inline-block;
+  width: 30.3px;
+  height: 16.5px;
+  z-index: 2;
+}
+.bgParent {
+  height: 51px;
+  width: 51px;
+  position: relative;
+}
+.turigmaaiContactInfo {
+  width: 143px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-300);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-6xs) var(--padding-6xs)
+    var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}

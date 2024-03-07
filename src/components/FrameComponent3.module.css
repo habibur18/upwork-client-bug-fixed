@@ -1,0 +1,315 @@
+.bannerIcon {
+  width: 1445px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: -5px;
+  max-height: 100%;
+  object-fit: cover;
+}
+.home {
+  position: relative;
+  font-weight: 800;
+  z-index: 1;
+}
+.presalesAi {
+  width: 98px;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.benefits,
+.blog,
+.features,
+.presalesAi {
+  position: relative;
+  font-weight: 800;
+  z-index: 1;
+}
+.blog {
+  width: 46px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameWrapper,
+.homeParent {
+  display: flex;
+  align-items: flex-start;
+}
+.homeParent {
+  margin: 0;
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--dark-theme-gray-0);
+  font-family: var(--font-nunito);
+}
+.frameWrapper {
+  width: 454px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.logoAndImageParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.backgoundIcon,
+.background {
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.backgoundIcon {
+  width: 845px;
+  border-radius: var(--br-31xl);
+  max-height: 100%;
+}
+.background {
+  height: 80px;
+  width: 600px;
+  border-radius: var(--br-xl);
+  background-color: var(--dark-theme-gray-0);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.enterYourLogin {
+  width: 227px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-nunito);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  height: 17px;
+  position: relative;
+  color: var(--color-gray-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.background1,
+.button {
+  border-radius: var(--br-xl);
+  background-color: var(--dark-theme-gray-0);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.button {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-12xl) var(--padding-12xl) var(--padding-13xl);
+  z-index: 1;
+}
+.background1 {
+  height: 80px;
+  width: 600px;
+  position: relative;
+  display: none;
+}
+.button1,
+.enterYourPassword {
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.enterYourPassword {
+  width: 227px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-nunito);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  height: 17px;
+  position: relative;
+  color: var(--color-gray-200);
+  text-align: left;
+}
+.button1 {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--dark-theme-gray-0);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-12xl) var(--padding-12xl) var(--padding-13xl);
+  max-width: 100%;
+}
+.login {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-nunito);
+  color: var(--dark-theme-gray-0);
+  text-align: left;
+}
+.button2,
+.buttonParent {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.button2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xl) var(--padding-xl) var(--padding-6xl)
+    var(--padding-2xl);
+  background-color: var(--ff-saas);
+  width: 327px;
+  border-radius: var(--br-20xl);
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.button2:hover {
+  background-color: var(--color-mediumslateblue-500);
+}
+.buttonParent {
+  width: 600px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 40px 0;
+}
+.resetPassword {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-nunito);
+  color: var(--ff-saas);
+  text-align: left;
+}
+.backgoundParent,
+.button3 {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.button3 {
+  cursor: pointer;
+  border: 1px solid var(--color-lightgray);
+  padding: var(--padding-6xl);
+  background-color: transparent;
+  width: 250px;
+  border-radius: var(--br-20xl);
+  flex-direction: row;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button3:hover {
+  background-color: var(--color-silver-500);
+  border: 1px solid var(--color-silver-400);
+  box-sizing: border-box;
+}
+.backgoundParent {
+  margin: 0 !important;
+  width: 845px;
+  position: absolute;
+  right: 289px;
+  bottom: -260px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-77xl) var(--padding-33xl) var(--padding-33xl);
+  gap: 66px 0;
+  max-width: 100%;
+}
+.login1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 800;
+  font-family: inherit;
+  z-index: 1;
+}
+.loginWrapper {
+  width: 612px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-56xl);
+}
+.bannerParent,
+.loginInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+.bannerParent {
+  flex: 1;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-466xl) var(--padding-5xl)
+    var(--padding-52xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 120px 0;
+}
+.loginInner {
+  height: 809px;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1050px) {
+  .login1 {
+    font-size: var(--font-size-41xl);
+    line-height: 66px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .homeParent {
+    display: none;
+  }
+  .frameWrapper {
+    width: 0;
+  }
+  .bannerParent {
+    gap: 120px 0;
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-223xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .enterYourLogin,
+  .enterYourPassword {
+    font-size: var(--font-size-base);
+  }
+  .login {
+    font-size: var(--font-size-lgi);
+  }
+  .login1 {
+    font-size: var(--font-size-26xl);
+    line-height: 49px;
+  }
+  .bannerParent {
+    gap: 120px 0;
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

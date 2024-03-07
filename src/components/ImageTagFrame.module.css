@@ -1,0 +1,78 @@
+.nestedFrames {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.callForPricing {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 800;
+  font-family: inherit;
+  z-index: 1;
+}
+.billedPerCampaign {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 157.4%;
+  font-weight: 600;
+  font-family: var(--font-nunito);
+  color: var(--color-darkgoldenrod);
+  text-align: left;
+}
+.billedYearly,
+.nestedFrames1 {
+  box-sizing: border-box;
+  z-index: 1;
+}
+.billedYearly {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xs);
+  background-color: var(--color-blanchedalmond);
+  width: 238px;
+  border-radius: var(--br-24xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.billedYearly:hover {
+  background-color: var(--color-wheat);
+}
+.nestedFrames1 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-lightgray);
+}
+.imageTagFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+  gap: 23px 0;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 900px) {
+  .callForPricing {
+    font-size: var(--font-size-13xl);
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .callForPricing {
+    font-size: var(--font-size-5xl);
+    line-height: 26px;
+  }
+}

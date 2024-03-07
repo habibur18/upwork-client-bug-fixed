@@ -1,0 +1,331 @@
+.categoryResponseCellFrame {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+}
+.turigmaai {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+}
+.aLeadingSilicon {
+  width: 366px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 157.4%;
+  font-family: var(--font-nunito);
+  color: var(--color-gray-200);
+  display: inline-block;
+}
+.mailinfoturigmaaiFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 26px 0;
+}
+.mailIcon {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.turigmaaiInfoFrame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+}
+.infoturigmaai {
+  position: relative;
+  line-height: 157.4%;
+  white-space: nowrap;
+}
+.lineSeparatorFrame1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 17px;
+}
+.phoneCallIcon {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.phoneCallWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+}
+.div {
+  flex: 1;
+  position: relative;
+  line-height: 157.4%;
+}
+.lineSeparatorFrame2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 17px;
+}
+.mailPhoneCallFrame,
+.textInputFieldFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textInputFieldFrame {
+  width: 209px;
+  gap: 18px 0;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-nunito);
+}
+.mailPhoneCallFrame {
+  width: 366px;
+  gap: 36px 0;
+  max-width: 100%;
+}
+.pages {
+  margin: 0;
+  width: 118px;
+  position: relative;
+  font-size: inherit;
+  line-height: 128.18%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.pricingsection {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+}
+.aboutUs,
+.home {
+  margin: 0;
+}
+.integrations1 {
+  font-family: var(--font-nunito);
+  color: var(--ff-saas);
+}
+.contactUs,
+.features,
+.integrations,
+.pricing {
+  margin: 0;
+}
+.homeAboutUsContainer {
+  width: 160px;
+  height: 413px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 267.5%;
+  text-transform: capitalize;
+  display: inline-block;
+  cursor: pointer;
+  color: var(--color-gray-200);
+}
+.aboutussection {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 23px 0;
+  min-width: 180px;
+}
+.utilityPages {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 128.18%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+}
+.line {
+  width: 180px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+}
+.account,
+.cancelSubscription,
+.myProfile,
+.resetPassword {
+  margin: 0;
+}
+.myProfileAccountContainer {
+  width: 224px;
+  height: 450px;
+  position: absolute;
+  margin: 0 !important;
+  right: -13px;
+  bottom: -186px;
+  font-size: var(--font-size-3xl);
+  line-height: 267.5%;
+  text-transform: capitalize;
+  color: var(--color-gray-200);
+  display: inline-block;
+}
+.utilitiPage,
+.utilitypagescontainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.utilitiPage {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 0 var(--padding-269xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 24px 0;
+  min-width: 137px;
+  cursor: pointer;
+}
+.utilitypagescontainer {
+  width: 424px;
+  flex-direction: row;
+  gap: 0 33px;
+  max-width: 100%;
+  font-family: var(--font-nunito);
+}
+.content {
+  width: 416px;
+  display: none;
+  max-width: 100%;
+}
+.appDownload {
+  height: 205px;
+  width: 393px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-46xl) var(--padding-18xl);
+  box-sizing: border-box;
+  min-width: 255px;
+  max-width: 100%;
+}
+.turigmaaiInfoFrame {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0 63px;
+}
+.headerCellFrame,
+.lineSeparatorFrame,
+.turigmaaiInfoFrame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.lineSeparatorFrame {
+  width: 1353px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-3xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.headerCellFrame {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 94px 0;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 1050px) {
+  .pages,
+  .turigmaai,
+  .utilityPages {
+    font-size: var(--font-size-5xl);
+  }
+  .pages,
+  .utilityPages {
+    line-height: 31px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .turigmaaiInfoFrame {
+    gap: 0 63px;
+  }
+  .headerCellFrame {
+    gap: 94px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .turigmaai {
+    font-size: var(--font-size-lg);
+  }
+  .aLeadingSilicon,
+  .div,
+  .infoturigmaai {
+    font-size: var(--font-size-lg);
+    line-height: 28px;
+  }
+  .mailPhoneCallFrame {
+    gap: 36px 0;
+  }
+  .homeAboutUsContainer,
+  .pages {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+  .homeAboutUsContainer {
+    line-height: 47px;
+  }
+  .aboutussection {
+    flex: 1;
+  }
+  .myProfileAccountContainer,
+  .utilityPages {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+  .myProfileAccountContainer {
+    line-height: 47px;
+  }
+  .utilitiPage {
+    padding-bottom: var(--padding-168xl);
+    box-sizing: border-box;
+  }
+  .utilitypagescontainer {
+    flex-wrap: wrap;
+    gap: 0 33px;
+  }
+  .turigmaaiInfoFrame {
+    gap: 0 63px;
+  }
+  .headerCellFrame {
+    gap: 94px 0;
+  }
+}

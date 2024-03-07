@@ -1,0 +1,531 @@
+.logoFrame {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  mix-blend-mode: normal;
+  cursor: pointer;
+}
+.campaignDesign,
+.campaignSetup,
+.logoFrame {
+  white-space: nowrap;
+}
+.campaignDesign,
+.campaignSetup,
+.research {
+  position: relative;
+  font-weight: 800;
+  cursor: pointer;
+}
+.callAnalysis,
+.callerDashboard,
+.managerDashboard {
+  position: relative;
+  font-weight: 800;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.logoAndMenu,
+.logoMenuInstance,
+.menuFrame {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.menuFrame {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 32px;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-500);
+}
+.logoAndMenu,
+.logoMenuInstance {
+  box-sizing: border-box;
+}
+.logoAndMenu {
+  width: 1309px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-xl);
+}
+.logoMenuInstance {
+  width: 1353px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xs) var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+.campaignResearch,
+.pageSubtitle {
+  margin: 0;
+  position: relative;
+  font-family: inherit;
+}
+.campaignResearch {
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 800;
+}
+.pageSubtitle {
+  font-size: var(--font-size-6xl);
+  line-height: 157.4%;
+  font-weight: 400;
+  color: var(--color-gray-200);
+}
+.campaignResearchFRAME,
+.line {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.campaignResearchFRAME {
+  flex-direction: column;
+  align-items: center;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: 16px 0;
+}
+.line {
+  width: 1059px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-6xs) var(--padding-xl);
+  text-align: center;
+  font-size: var(--font-size-56xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+.turigmaAiAutomated,
+.worlds1stFully {
+  align-self: stretch;
+  position: relative;
+  line-height: 110%;
+}
+.turigmaAiAutomated {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+}
+.worlds1stFully {
+  font-size: var(--font-size-xl);
+}
+.uploadFrameFRAME,
+.uploadsellsidedocs {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.uploadFrameFRAME {
+  width: 1180px;
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: 20px 0;
+}
+.uploadsellsidedocs {
+  width: 1288px;
+  flex-direction: row;
+  padding: 0 0 var(--padding-mid) var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-nunito);
+}
+.uploadSellSideDocuments {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.uploadSellsideDocsTEXT,
+.uploadbuysidedocsINSTAN {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.uploadSellsideDocsTEXT {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 691px 0 var(--padding-xl);
+}
+.uploadbuysidedocsINSTAN {
+  width: 1282px;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-mid) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.uploadCampaignSetup {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.turigmaAIAutomatedResearch {
+  flex-direction: row;
+  padding: 0 var(--padding-3xs);
+}
+.campaignresearchInner,
+.turigmaAIAutomatedResearch,
+.turigmaAIAutomatedResearchParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.turigmaAIAutomatedResearchParent {
+  width: 1167px;
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: 110px 0;
+}
+.campaignresearchInner {
+  width: 1282px;
+  flex-direction: row;
+  padding: 0 0 var(--padding-6xs) var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-nunito);
+}
+.startAnalysis {
+  margin: 0;
+  height: 106px;
+  width: 329px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.startAnalysisFrame {
+  width: 521px;
+  border-radius: var(--br-20xl);
+  background-color: var(--color-lavender-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-22xl) var(--padding-21xl) var(--padding-21xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  cursor: pointer;
+}
+.startAnalysisFrameWrapper {
+  width: 969px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xs) var(--padding-xl);
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--ff-saas);
+  font-family: var(--font-nunito);
+}
+.line1,
+.lineWrapper,
+.startAnalysisFrameWrapper {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.line1 {
+  margin-right: -12px;
+  height: 1px;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-300);
+}
+.lineWrapper {
+  align-self: stretch;
+  height: 7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xs) var(--padding-xl);
+}
+.turigmaai {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+}
+.aLeadingSilicon {
+  margin: 0;
+  width: 366px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 157.4%;
+  font-weight: 400;
+  font-family: var(--font-nunito);
+  color: var(--color-gray-200);
+  display: inline-block;
+}
+.turigmaAIAutomationLogo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 26px 0;
+}
+.mailIcon {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mailphonecall {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+}
+.infoturigmaai {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 157.4%;
+  font-weight: 400;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.framemailphonecall {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 17px;
+}
+.phoneCallIcon {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.phoneCallWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+}
+.div {
+  flex: 1;
+  position: relative;
+  line-height: 157.4%;
+}
+.framemailphonecall1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 17px;
+}
+.mailInfo,
+.turigmaAIAutomationLogoParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mailInfo {
+  width: 209px;
+  gap: 18px 0;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-nunito);
+}
+.turigmaAIAutomationLogoParent {
+  width: 366px;
+  gap: 36px 0;
+  max-width: 100%;
+}
+.content {
+  width: 416px;
+  display: none;
+  max-width: 100%;
+}
+.appDownload,
+.turigmaAIFrame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.appDownload {
+  height: 205px;
+  width: 393px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-46xl) var(--padding-18xl);
+  box-sizing: border-box;
+  min-width: 255px;
+}
+.turigmaAIFrame {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0 63px;
+}
+.campaignresearch,
+.turigmaAIFrameWrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  text-align: left;
+}
+.turigmaAIFrameWrapper {
+  width: 1363px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-15xl) var(--padding-6xs) var(--padding-xl);
+  max-width: 100%;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-lato);
+}
+.campaignresearch {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark-theme-gray-0);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-31xl) 0 171px;
+  gap: 110px 0;
+  letter-spacing: normal;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1200px) {
+  .uploadSellsideDocsTEXT {
+    padding-right: 345px;
+    box-sizing: border-box;
+  }
+  .turigmaAIAutomatedResearchParent {
+    gap: 110px 0;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .menuFrame {
+    display: none;
+  }
+  .logoAndMenu {
+    width: 433px;
+  }
+  .campaignResearch {
+    font-size: var(--font-size-41xl);
+    line-height: 66px;
+  }
+  .turigmaAiAutomated {
+    font-size: var(--font-size-19xl);
+    line-height: 42px;
+  }
+  .uploadCampaignSetup,
+  .uploadSellSideDocuments {
+    font-size: var(--font-size-7xl);
+    line-height: 28px;
+  }
+  .startAnalysis {
+    font-size: var(--font-size-19xl);
+  }
+  .turigmaai {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .uploadSellsideDocsTEXT {
+    padding-right: 172px;
+    box-sizing: border-box;
+  }
+  .turigmaAIAutomatedResearchParent {
+    gap: 110px 0;
+  }
+  .turigmaAIFrame {
+    gap: 0 63px;
+  }
+  .campaignresearch {
+    gap: 110px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .menuFrame {
+    gap: 0 32px;
+  }
+  .campaignResearch {
+    font-size: var(--font-size-26xl);
+    line-height: 49px;
+  }
+  .pageSubtitle {
+    font-size: var(--font-size-xl);
+    line-height: 31px;
+  }
+  .turigmaAiAutomated {
+    font-size: var(--font-size-10xl);
+    line-height: 32px;
+  }
+  .worlds1stFully {
+    font-size: var(--font-size-base);
+    line-height: 18px;
+  }
+  .uploadSellSideDocuments {
+    font-size: var(--font-size-lgi);
+    line-height: 21px;
+  }
+  .uploadSellsideDocsTEXT {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .uploadCampaignSetup {
+    font-size: var(--font-size-lgi);
+    line-height: 21px;
+  }
+  .startAnalysis {
+    font-size: var(--font-size-10xl);
+  }
+  .turigmaai {
+    font-size: var(--font-size-lg);
+  }
+  .aLeadingSilicon,
+  .div,
+  .infoturigmaai {
+    font-size: var(--font-size-lg);
+    line-height: 28px;
+  }
+  .turigmaAIAutomationLogoParent {
+    gap: 36px 0;
+  }
+  .turigmaAIFrame {
+    gap: 0 63px;
+  }
+  .campaignresearch {
+    gap: 110px 0;
+  }
+}

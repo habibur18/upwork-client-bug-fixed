@@ -1,0 +1,175 @@
+.callerDashboard1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 800;
+  font-family: inherit;
+}
+.pageSubtitle {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  line-height: 157.4%;
+  color: var(--color-gray-200);
+  display: inline-block;
+  max-width: 100%;
+}
+.fRAMECampaignSetup,
+.fRAMEResearch {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.fRAMEResearch {
+  flex-direction: column;
+  align-items: center;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: 16px 0;
+}
+.fRAMECampaignSetup {
+  width: 1012px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-20xl) 0;
+  text-align: center;
+  font-size: var(--font-size-56xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+.backgroundIcon,
+.callScript1 {
+  align-self: stretch;
+  position: relative;
+}
+.backgroundIcon {
+  border-radius: var(--br-11xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.callScript1 {
+  margin: 0;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 800;
+  font-family: inherit;
+  z-index: 1;
+}
+.loremIpsumDolor {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.blankLine,
+.egestasAmetFermentum {
+  margin: 0;
+}
+.loremIpsumDolorContainer {
+  width: 1301px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 157.4%;
+  color: var(--color-gray-200);
+  display: inline-block;
+  z-index: 1;
+}
+.callScript {
+  width: 1301px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 193px;
+  gap: 41px 0;
+}
+.callScript,
+.homePageFrame,
+.notepad {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.notepad {
+  width: 1351px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-20xl) 0;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+.homePageFrame {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-300);
+}
+.callerDashboard,
+.footerFrame {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.footerFrame {
+  align-self: stretch;
+  height: 39px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-20xl);
+  max-width: 100%;
+}
+.callerDashboard {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark-theme-gray-0);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-81xl) 0 var(--padding-26xl) var(--padding-5xl);
+  gap: 94px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .callerDashboard1 {
+    font-size: var(--font-size-41xl);
+    line-height: 66px;
+  }
+  .callScript1 {
+    font-size: var(--font-size-21xl);
+    line-height: 44px;
+  }
+  .callScript {
+    gap: 41px 0;
+    padding-bottom: 125px;
+    box-sizing: border-box;
+  }
+  .callerDashboard {
+    gap: 94px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .callerDashboard1 {
+    font-size: var(--font-size-26xl);
+    line-height: 49px;
+  }
+  .pageSubtitle {
+    font-size: var(--font-size-xl);
+    line-height: 31px;
+  }
+  .callScript1 {
+    font-size: var(--font-size-11xl);
+    line-height: 33px;
+  }
+  .loremIpsumDolorContainer {
+    font-size: var(--font-size-lg);
+    line-height: 28px;
+  }
+  .callerDashboard {
+    gap: 94px 0;
+  }
+}

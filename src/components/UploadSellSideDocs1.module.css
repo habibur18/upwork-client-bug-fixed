@@ -1,0 +1,99 @@
+.uploadSellSideDocsChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-400);
+}
+.image26Icon {
+  height: 192px;
+  width: 204px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.campaignInfoFrame {
+  height: 125px;
+  width: 570px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -33px;
+  left: -72px;
+  border-radius: var(--br-21xl);
+  background-color: var(--ff-saas);
+  z-index: 1;
+}
+.uploadDocuments {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  font-weight: 800;
+  font-family: inherit;
+  z-index: 2;
+}
+.startanalysisframeFRAME,
+.uploadSellSideDocs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.uploadSellSideDocs {
+  width: 1147px;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-81xl) var(--padding-147xl) var(--padding-81xl)
+    var(--padding-75xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--dark-theme-gray-0);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1200px) {
+  .uploadSellSideDocs {
+    padding-left: var(--padding-28xl);
+    padding-right: var(--padding-64xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .image26Icon {
+    flex: 1;
+  }
+  .uploadDocuments {
+    font-size: var(--font-size-19xl);
+    line-height: 48px;
+  }
+  .uploadSellSideDocs {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  .uploadSellSideDocs {
+    padding-left: var(--padding-4xl);
+    padding-right: var(--padding-22xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .uploadDocuments {
+    font-size: var(--font-size-10xl);
+    line-height: 36px;
+  }
+  .uploadSellSideDocs {
+    padding-top: var(--padding-46xl);
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}

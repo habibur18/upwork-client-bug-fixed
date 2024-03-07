@@ -1,0 +1,107 @@
+.boxGreyRectangle,
+.boxName {
+  flex: 1;
+  position: relative;
+  min-width: 396px;
+  max-width: 100%;
+}
+.boxName {
+  margin: 0;
+  font-size: inherit;
+  line-height: 125%;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+}
+.boxGreyRectangle {
+  height: 16.3px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-silver-200);
+}
+.boxgreyrectangle {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 11px;
+  max-width: 100%;
+}
+.boxname,
+.sellSideTabPicIcon {
+  align-self: stretch;
+  max-width: 100%;
+}
+.boxname {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+}
+.sellSideTabPicIcon {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.sellSideTabFrame,
+.sellsidetabframe {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sellSideTabFrame {
+  flex: 1;
+  background-color: var(--ff-saas);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-7xl) var(--padding-xs) var(--padding-24xl)
+    var(--padding-4xl);
+  gap: 10px 0;
+}
+.sellsidetabframe {
+  width: 1399px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-43xl);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--dark-theme-gray-0);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1200px) {
+  .sellsidetabframe {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .boxName {
+    font-size: var(--font-size-21xl);
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .boxGreyRectangle,
+  .boxName {
+    min-width: 100%;
+  }
+  .sellSideTabFrame {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .boxName {
+    font-size: var(--font-size-11xl);
+    line-height: 37px;
+  }
+}
